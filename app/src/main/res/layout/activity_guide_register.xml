@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/black"
+    android:gravity="center">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register for Lodgify as a Guide"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Name"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="@color/greyLight"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginBottom="1dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Email"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/greyLight"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:layout_marginBottom="1dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Password"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textColorHint="@color/greyLight"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_marginBottom="1dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone number"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone number"
+        android:textColorHint="@color/greyLight"
+        android:textColor="@color/white"
+        android:inputType="phone"
+        android:padding="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add your ID to verify you"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:layout_marginBottom="19dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload ID"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        android:padding="16dp"/>
+</LinearLayout>
+
+

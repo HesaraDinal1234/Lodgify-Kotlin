@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hotel"
+        tools:targetApi="31">
+        <activity
+            android:name=".user_hotel_booking"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".guide_dashboard"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".normal_user_register"/>
+        <activity android:name=".hotel_register_page"/>
+        <activity android:name=".guide_register"/>
+        <activity android:name=".user_guide_booking"/>
+        <activity android:name=".guide_booking_show"/>
+        <activity android:name=".hotel_booking_show"/>
+        <activity android:name=".hotel_dashboard"/>
+        <activity android:name=".normal_user_dashboard"/>
+        <activity android:name=".who_going_to_register"/>
+        <activity android:name=".admin_dashboard"/>
+    </application>
+
+</manifest>
