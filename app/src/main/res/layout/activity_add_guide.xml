@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/guide_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Guide Name" />
+
+
+    <EditText
+        android:id="@+id/guide_id_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Guide ID Number" />
+
+    <EditText
+        android:id="@+id/guide_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Guide Address" />
+
+    <EditText
+        android:id="@+id/guide_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Guide Phone Number" />
+
+    <ImageView
+        android:id="@+id/guide_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@android:drawable/ic_menu_camera"
+        android:contentDescription="Guide Photo"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/open_camera_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/save_guide_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Guide"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

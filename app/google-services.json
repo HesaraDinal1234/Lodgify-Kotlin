@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "339297671519",
+    "project_id": "lodgifyb2",
+    "storage_bucket": "lodgifyb2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339297671519:android:fc3732b9ca93adefb17eea",
+        "android_client_info": {
+          "package_name": "com.example.lodgify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlnBReTTqcVDUbK9yzA7lzfkyf-34zapg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

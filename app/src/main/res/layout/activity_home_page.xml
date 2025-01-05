@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="@color/black"
+    android:paddingTop="60dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Lodgify"
+        android:textColor="@color/white"
+        android:textSize="64sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Lodgify"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/book_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book A Hotel"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/yellow"/>
+
+    <Button
+        android:id="@+id/book_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book A Guide"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/green" />
+
+    <Button
+        android:id="@+id/addhotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register A Hotel"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/red"/>
+
+    <Button
+        android:id="@+id/addguide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register A Guide "
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/blue" />
+</LinearLayout>
